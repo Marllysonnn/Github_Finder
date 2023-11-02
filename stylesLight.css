@@ -150,6 +150,6 @@ section{
 }
 @media (max-width: 600px) {
     html{
-        scale: 0.7;
+        scale: 0.6;
     }
 }
