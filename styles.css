@@ -147,3 +147,8 @@ section{
     background-size: cover;
     background-image: url(arquivos/companhiaNight.png);
 }
+@media (max-width: 600px) {
+    html{
+        scale: 0.7;
+    }
+}
