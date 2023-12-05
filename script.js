@@ -52,5 +52,8 @@ function fetchGitHubData() {
 
 // Iniciar busca e modificacao com os dados recebidos do usuario
 document.querySelector('button').addEventListener('click', fetchGitHubData);
-
-// ...
+document.addEventListener('keypress', function(e){ 
+       if(e.which == 13){
+          fetchGitHubData();
+       }
+    },false);
